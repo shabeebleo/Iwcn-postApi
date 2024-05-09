@@ -1,1 +1,2 @@
 # Iwcn-postApi
+If the server hasn't explicitly allowed access to custom headers due to modern browser security concerns, retrieving those headers directly from client-side code may not be possible. In this scenario, i  did't get access to the data recieved from the header part.i just  rendered the data sent through the response body instead. However, it's important to note that some headers, like "Phoneorigen", may not be accessible from client-side code without server-side configurations to explicitly expose them.
